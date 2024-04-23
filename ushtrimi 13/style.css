@@ -1,0 +1,83 @@
+body{
+    background-color: aqua;
+    
+}
+#grupimi{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+    height: 33em;
+    color: white;
+    padding-top: 20px;
+    align-items: center;
+}
+p{
+    font-size: 25px;
+}
+h1{
+    font-size: 50px;
+}
+#right{
+    background-color: white;
+    color: black;
+    height: 430px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 25px;
+}
+input{
+    border-radius: 4px;
+    height: 30px;
+    width: 270px;
+    padding: 10px;
+}
+#bt{
+    <!-- HTML !-->
+<button class="button-7" role="button">Button 7</button>
+
+/* CSS */
+.button-7 {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-7:hover,
+.button-7:focus {
+  background-color: #07c;
+}
+
+.button-7:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-7:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+#foto123{
+    height: 10px;
+    width: 10px;
+}
+
+
